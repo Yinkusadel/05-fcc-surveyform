@@ -9,5 +9,25 @@
   <body>
     <h1 id="title">survey form</h1>
     <p id="description">Please fill out this form with the required information</p>
-<form id="survey-form"></form>
-<input id="name"></input>
+<form id="survey-form">
+<input id="name" type="text" required placeholder="your name"></input>
+<input id="email" type="email" required placeholder="your email address"></input>
+<input id="number" type="number" min="10" max="20" placeholder="your num"></input>
+<label id="name-label">name</label>
+<label id="email-label">email address</label>
+<label id="number-label">number</label>
+<input type="radio" value="gender" name="male" placeholder="female"></input>
+<input type="radio" value="gender" name="male" placeholder="male"></input>
+<input type="checkbox" value="check" placeholder="check"></input>
+<input type="checkbox" value="uncheck" placeholder="uncheck"></input>
+<textarea placeholder="who are you"></textarea >
+<input id="submit" type="submit"></input>
+
+
+<label for="referrer"
+          >How did you hear about us?
+<select  id="dropdown" >
+  <option value="male">male</option>
+  <option value="female">female</option>
+</select>
+</form>
