@@ -38,9 +38,7 @@
           />
         </div>
         <div class="form-group">
-          <label id="number-label" for="number"
-            >Age<span class="clue">(optional)</span></label
-          >
+          <label id="number-label" for="number">Age<span class="clue">(optional)</span></label>
           <input
             type="number"
             name="age"
@@ -53,7 +51,7 @@
         </div>
         <div class="form-group">
           <p>Which option best describes your current role?</p>
-          <select id="dropdown" name="role" class="form-control" required>
+          <select id="dropdown" name="role" class="form-control" required aria-label="role">
             <option disabled selected value>Select current role</option>
             <option value="student">Student</option>
             <option value="job">Full Time Job</option>
@@ -75,26 +73,23 @@
             />Definitely
           </label>
           <label>
-            <input
-              name="user-recommend"
-              value="maybe"
-              type="radio"
-              class="input-radio"
-            />Maybe
+            <input name="user-recommend" value="maybe" type="radio" class="input-radio" />Maybe
           </label>
           <label
-            ><input
-              name="user-recommend"
-              value="not-sure"
-              type="radio"
-              class="input-radio"
-            />Not sure
+            ><input name="user-recommend" value="not-sure" type="radio" class="input-radio" />Not
+            sure
           </label>
         </div>
 
         <div class="form-group">
           <p>What is your favorite feature of freeCodeCamp?</p>
-          <select id="most-like" name="mostLike" class="form-control" required>
+          <select
+            id="most-like"
+            name="mostLike"
+            class="form-control"
+            required
+            aria-label="mostLike"
+          >
             <option disabled selected value>Select an option</option>
             <option value="challenges">Challenges</option>
             <option value="projects">Projects</option>
@@ -141,12 +136,13 @@
               class="input-checkbox"
             />Challenges
           </label>
-          <labe>
+          <label>
             <input
               name="prefer"
               value="open-source-community"
               type="checkbox"
               class="input-checkbox"
+              placeholder="none"
             />Open Source Community
           </label>
           <label>
@@ -158,36 +154,17 @@
             />Gitter help rooms
           </label>
           <label>
-            <input
-              name="prefer"
-              value="videos"
-              type="checkbox"
-              class="input-checkbox"
-            />Videos
+            <input name="prefer" value="videos" type="checkbox" class="input-checkbox" />Videos
           </label>
           <label>
-            <input
-              name="prefer"
-              value="city-meetups"
-              type="checkbox"
-              class="input-checkbox"
-            />City Meetups
+            <input name="prefer" value="city-meetups" type="checkbox" class="input-checkbox" />City
+            Meetups
           </label>
           <label>
-            <input
-              name="prefer"
-              value="wiki"
-              type="checkbox"
-              class="input-checkbox"
-            />Wiki
+            <input name="prefer" value="wiki" type="checkbox" class="input-checkbox" />Wiki
           </label>
           <label>
-            <input
-              name="prefer"
-              value="forum"
-              type="checkbox"
-              class="input-checkbox"
-            />Forum
+            <input name="prefer" value="forum" type="checkbox" class="input-checkbox" />Forum
           </label>
           <label>
             <input
@@ -210,9 +187,7 @@
         </div>
 
         <div class="form-group">
-          <button type="submit" id="submit" class="submit-button">
-            Submit
-          </button>
+          <button type="submit" id="submit" class="submit-button">Submit</button>
         </div>
       </form>
     </div>
