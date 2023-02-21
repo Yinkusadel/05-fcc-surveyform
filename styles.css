@@ -54,3 +54,18 @@ body {
     font-size: 0.9rem;
     color: #e4e4e4;
   }
+
+  .text-center {
+    text-align: center;
+  }
+
+  form {
+    background: var(--color-darkblue-alpha);
+    padding: 2.5rem 0.625rem;
+    border-radius: 0.25rem;
+  }
+
+  .form-group {
+    margin: 0 auto 1.25rem auto;
+    padding: 0.25rem;
+  }
