@@ -7,19 +7,26 @@ Additional description of the project and its features.
 
 ## Built With
 
-- html
-- div ,h1 ,p
-- technologies used
-- header
-- label ,input
-- select ,option
-- textarea
-- button
-- CSS
-- media query
-- pseudo selector
-- universal selector
-- variable
+- ### HTML5 elements
+  - **Heading element**
+    `h1`
+  - **Block element**
+    `div` `p`
+  - **Inline element**
+    `span`
+  - **Form element like**
+    `select` `label` `textarea` `form` `input`
+- ### CSS properties
+  - CSS variables for reuseable CSS values,
+  - CSS media query for page responsiveness using `@media` rule,
+  - CSS positioning `fixed`,
+  - CSS background for page aesthetic using `background-color`, `background-image`.
+  - CSS selectors `class selector` `id selector` `universal selector`
+- ### Linters
+  - [prettier](prettier),
+  - [stylelint](stylelint).
+
+### GitHub Action
 
 ## Live Demo
 
