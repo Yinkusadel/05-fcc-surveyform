@@ -28,17 +28,14 @@ body::before {
   height: 100%;
   width: 100%;
   z-index: -1;
-  background: var(--color-darkblue);
-  background-image:
+  background:
     linear-gradient(
       115deg,
       rgb(58 58 158 / 80%),
       rgb(136 136 206 / 70%)
     ),
-    url("https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
+    url("https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg") center/cover no-repeat,
+    var(--color-darkblue);
 }
 
 h1 {
