@@ -1,20 +1,36 @@
-# Project Name
+# Survey Form
 
-> One paragraph statement about the project.
-
-![screenshot](./app_screenshot.png)
+> A survey form used for collecting data.
+> ![screenshot](./app_screenshot.png)
 
 Additional description of the project and its features.
 
 ## Built With
 
-- Major languages,
-- frameworks,
-- technologies used
+- ### HTML5 elements
+  - **Heading element**
+    `h1`
+  - **Block element**
+    `div` `p`
+  - **Inline element**
+    `span`
+  - **Form element like**
+    `select` `label` `textarea` `form` `input`
+- ### CSS properties
+  - CSS variables for reuseable CSS values,
+  - CSS media query for page responsiveness using `@media` rule,
+  - CSS positioning `fixed`,
+  - CSS background for page aesthetic using `background-color`, `background-image`.
+  - CSS selectors `class selector` `id selector` `universal selector`
+- ### Linters
+  - [prettier](prettier),
+  - [stylelint](stylelint).
+
+### GitHub Action
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://05-fcc-surveyform.netlify.app)
 
 ### Development (Running locally)
 
